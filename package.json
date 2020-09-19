@@ -1,13 +1,13 @@
 {
   "name": "chapman-length-deviation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The Chapman Length Deviation algorithm implementation",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
@@ -19,7 +19,12 @@
     "type": "git",
     "url": "git+https://github.com/kwunshing123/chapman-length-deviation.git"
   },
-  "keywords": ["Chapman Length Deviation", "string lengths deviation", "string similarity", "string"],
+  "keywords": [
+    "Chapman Length Deviation",
+    "string lengths deviation",
+    "string similarity",
+    "string"
+  ],
   "author": "Benny Wong",
   "license": "MIT",
   "bugs": {
