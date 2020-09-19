@@ -1,6 +1,6 @@
 {
   "name": "chapman-length-deviation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The Chapman Length Deviation algorithm implementation",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
